@@ -1,0 +1,167 @@
+.Card {
+    width: 100%;
+    background-image: url("./imgs/Ellipse 8.png");
+    height: auto;
+    padding-top: 80px;
+}
+
+.card-box {
+    display: flex;
+    padding-bottom: 120px;
+    gap: 52px;
+    justify-content: center;
+}
+
+.imgs-card {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D3D3D3;
+    cursor: pointer;
+}
+
+.imgs-card img {
+    width: 84px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.arrow-up {
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D3D3D3;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.card-bottom {
+    width: 400px;
+    height: 568px;
+    border: 1px solid #D3D3D3;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom img {
+    width: 365px;
+    height: 173px;
+    object-fit: contain;
+}
+
+.card-right {
+    width: 438px;
+}
+
+.card-right h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.size-l p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+}
+
+.square-size {
+    min-width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #4D4B4B;
+    padding: 5px;
+}
+
+.size-r p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+}
+
+.color-1 {
+    width: 36px;
+    height: 36px;
+    background-color: #5B8EAB;
+    border-radius: 50%;
+
+}
+
+.hr-size {
+    width: 438px;
+    color: #959595;
+    margin-top: 30px;
+}
+
+.card-right h2 {
+    width: 438px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #3E3E3E;
+    margin-top: 42px;
+}
+
+.card-right h3 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 46px;
+}
+.btns{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    margin-top: 25px;
+}
+.btns button {
+    width: 391px;
+    height: 36px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.heart{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 16px;
+}

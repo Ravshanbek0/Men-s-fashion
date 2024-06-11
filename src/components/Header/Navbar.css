@@ -1,0 +1,278 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #909090;
+    background-image: url('./imgs/Ellipse 8.png');
+}
+
+.nav-text ul {
+    display: flex;
+    gap: 50px;
+    margin-left: 120px;
+}
+
+.nav-text ul li {
+    font-size: 12px;
+}
+
+.nav-text ul li a {
+    color: black;
+}
+
+.nav-save {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding-top: 25px;
+    height: 1000px;
+    background-image: url('./imgs/Ellipse 8.png');
+}
+
+.nav-input-box {
+    width: 150px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-input-box span {
+    position: absolute;
+    z-index: 5;
+    top: 5px;
+    left: 5px;
+}
+
+.nav-input-box input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #4A4A4A;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.nav-save>span {
+    font-size: 24px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #F0EFEF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-main {
+    position: relative;
+    margin-top: 145px;
+    height: auto;
+}
+
+.header-background {
+    position: relative;
+    width: 1140px;
+    height: 500px;
+    background: #0000009b;
+    margin: 0 auto;
+    background-image: url('./imgs/Frame 15.png');
+}
+
+.header-background h1 {
+    position: absolute;
+    color: #fff;
+    z-index: 5;
+    top: 162px;
+    left: 369px;
+    font-size: 52px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    width: 100%;
+    top: 414px;
+    cursor: pointer;
+}
+
+.category-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-image {
+    background: #FFFFFF;
+    width: 173px;
+    height: 173px;
+    border: 1px solid #DCD9D9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.category-box p {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.news {
+    padding-top: 47px;
+}
+
+.news h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.news-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.news-right {
+    width: 365px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.news-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.news-price {
+    width: 240px;
+    height: 60px;
+    border-radius: 15px;
+    background: #0000008a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 24px;
+    position: absolute;
+    top: 425px;
+    left: 101px;
+}
+
+.news-price span {
+    font-size: 24px;
+}
+
+.news-left {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newL-boxes {
+    width: 260px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #bdbeb9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newL-boxes img{
+    display: block;
+    width: 99.5%;
+    height: 99.5%;
+    object-fit: contain;
+}
+.season h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 59px;
+}
+
+.season-box {
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.season-img {
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #EEEDEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.season-img img {
+    width: 229px;
+    height: 247px;
+    object-fit: contain;
+}
+
+.seaseon-boxes {
+    width: 270px;
+    height: 404px;
+}
+
+.season-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.season-text p {
+    color: #3A3939;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.store {
+    width: 36px;
+    height: 36px;
+    background-color: #F0E791;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.yellow-card {
+    width: 100%;
+    height: 100px;
+    margin-top: 59px;
+    background-image: url('./imgs/Ellipse 8.png');
+}
