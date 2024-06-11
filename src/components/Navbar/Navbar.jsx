@@ -10,7 +10,7 @@ function Navbar() {
         <div className="container">
             <div className='nav'>
                 <div className="logo">
-                    <Link to={"/"}><img src="./imgs/Logo.png" alt="" /></Link>
+                    <Link to={"/"}><img src="../imgs/Logo.png" alt="" /></Link>
                 </div>
                 <div className="nav-text">
                     <ul>
