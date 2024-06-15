@@ -1,0 +1,28 @@
+.seaseon-boxes {
+    width: 270px;
+    height: 404px;
+}
+
+.season-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.season-text p {
+    color: #3A3939;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.store {
+    width: 36px;
+    height: 36px;
+    background-color: #F0E791;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}

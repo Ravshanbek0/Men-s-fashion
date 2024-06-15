@@ -5,10 +5,11 @@ import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Card from './page/Card/Card'
+import Filter from './page/Filter/Filter'
 
 function App() {
 
-  const [mainData,setMainData] = useState([])
+  const [mainData, setMainData] = useState([])
 
   function getData() {
     const requestOptions = {
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Header mainData={mainData} />} />
           <Route path='/card/:id' element={<Card mainData={mainData} />} />
+          <Route path='/filter' element={<Filter mainData={mainData} />} />
         </Routes>
         <Footer />
 

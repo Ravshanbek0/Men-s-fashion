@@ -1,0 +1,89 @@
+.home_shop {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.filter-main {
+    display: flex;
+    margin-bottom: 120px;
+
+}
+
+.filter_left {
+    width: 459px;
+    font-weight: 500;
+    min-height: 800px;
+
+}
+.filter_right{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.filter-right-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}   
+
+.filter-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters {
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.tel-box1 {
+    padding: 0 30px;
+}
+
+.tel-box1 p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 13px;
+}
+
+.tel-box1 div {
+    display: flex;
+}
+
+.tel-box1 div input {
+    width: 150px;
+    height: 50px;
+    padding: 13px 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    outline: none;
+}
+.filte-btn{
+    display: block;
+    width: 190px;
+    height: 25px;
+    background: none;
+    border: 1px solid 
+    #C3C3C3;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    margin: 20px auto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nothin-massage{
+    display: block;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}

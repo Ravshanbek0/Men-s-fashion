@@ -15,7 +15,7 @@ function Navbar() {
                 <div className="nav-text">
                     <ul>
                         <Link to={'/'}><li><a href="">HOME</a></li></Link>
-                        <li><a href="">PRODUCT</a></li>
+                        <Link to={"/filter"}><li><a href="">PRODUCT</a></li></Link>
                         <li><a href="">ABOUT</a></li>
                     </ul>
                 </div>

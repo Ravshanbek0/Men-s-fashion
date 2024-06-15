@@ -5,6 +5,8 @@ import { CiShoppingBasket } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import Product from '../Card/Product';
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 function Header({ mainData }) {
     const [products, setProducts] = useState([])
@@ -26,6 +28,7 @@ function Header({ mainData }) {
     return (
 
         <>
+            {console.log(mainData)}
             <div className="header">
                 <div className="container">
 
@@ -68,9 +71,9 @@ function Header({ mainData }) {
                     <h1>Yangi kelganlar</h1>
                     <div className="news-box">
                         <div className="news-right">
-                            <img src="./imgs/img1.png" alt="" />
+                            <Link to={`/card/${mainData[4]?.id}`}><img src={`https://apisecommerce.pythonanywhere.com${mainData[4]?.product_files[0]?.file}`} alt="" /></Link>
                             <div className="news-price">
-                                <p>12$</p>
+                                <p>{Math.floor((mainData[4]?.price) / 12)}$</p>
                                 <span><MdOutlineArrowRightAlt /></span>
                             </div>
                         </div>
@@ -80,18 +83,7 @@ function Header({ mainData }) {
                                     <Link to={`/card/${item?.id}`}><img src={`https://apisecommerce.pythonanywhere.com${item?.product_files[0]?.file}`} alt="" /></Link>
                                 </div>)
                             })}
-                            {/* <div className="newL-boxes">
-                                <Link to={'/card'}><img src={`https://apisecommerce.pythonanywhere.com/${mainData[0]?.product_files[0]?.file}`} alt="" /></Link>
-                            </div>
-                            <div className="newL-boxes">
-                                <Link to={'/card'}><img src={`https://apisecommerce.pythonanywhere.com/${mainData[1]?.product_files[1]?.file}`} alt="" /></Link>
-                            </div>
-                            <div className="newL-boxes">
-                                <Link to={'/card'}> <img src="./imgs/img4.png" alt="" /></Link>
-                            </div>
-                            <div className="newL-boxes">
-                                <Link to={'/card'}><img src="./imgs/img5.png" alt="" /></Link>
-                            </div> */}
+
                         </div>
                     </div>
                 </div>
@@ -101,21 +93,10 @@ function Header({ mainData }) {
             </div>
             <div className="season">
                 <div className="container">
-                    <h1>Yozgi kolleksiyalar</h1>
+                    <Link to={"/filter"}><h1>Yozgi kolleksiyalar <FaLongArrowAltRight /> </h1></Link>
                     <div className="season-box">
                         {products?.map((item) => {
-                            return (<div className="seaseon-boxes">
-                                <div className="season-img">
-                                    <Link to={`/card/${item.id}`}><img src={`https://apisecommerce.pythonanywhere.com${item?.product_files[0]?.file}`} alt="" /></Link>
-                                </div>
-                                <div className="season-text">
-                                    <p>{item?.name} <br />
-                                        {`${item?.price} 000 so'm`}</p>
-                                    <span className="store">
-                                        <CiShoppingBasket />
-                                    </span>
-                                </div>
-                            </div>)
+                            return (<Product item={item} />)
                         })}
 
 
